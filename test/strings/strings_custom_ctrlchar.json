@@ -1,0 +1,26 @@
+[
+    {
+        "type": "quote",
+        "source": "\"\""
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    },
+    {
+        "type": "quote",
+        "source": "\"just a test\""
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    },
+    {
+        "type": "quote",
+        "source": "\"hello \\\"world\""
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    }
+]

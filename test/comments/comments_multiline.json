@@ -1,0 +1,46 @@
+[
+    {
+        "source": "/**/",
+        "type": "area comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "/*\n*/",
+        "type": "area comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "/*\nsiema\n\"siema\"\n#include <amxmodx>\n#pragma semicolor true\n*/",
+        "type": "area comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "/*\nsiema\n\"siema\"\n#include <amxmodx>\n#pragma semicolor true\n*/",
+        "type": "area comment"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "/**\n * siema\n * \"siema\"\n * #include <amxmodx>\n * #pragma semicolor true\n */",
+        "type": "area comment"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    }
+]

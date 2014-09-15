@@ -1,0 +1,98 @@
+[
+    {
+        "source": "//",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "//siema",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "//\"siema\"",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "//#include <amxmodx>",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "//#pragma semicolor true",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "//",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "//siema",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "//\"siema\"",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "//#include <amxmodx>",
+        "type": "line comment"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "a",
+        "type": "identifier"
+    },
+    {
+        "source": "//#pragma semicolor true",
+        "type": "line comment"
+    }
+]
