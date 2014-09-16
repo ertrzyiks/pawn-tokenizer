@@ -1,0 +1,118 @@
+[
+    {
+        "source": "#include",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "<",
+        "type": "operator"
+    },
+    {
+        "source": "amxmodx",
+        "type": "identifier"
+    },
+    {
+        "source": ">",
+        "type": "operator"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#include",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "amxmodx",
+        "type": "identifier"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#pragma",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "ctrlchar",
+        "type": "identifier"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "'^'",
+        "type": "char"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#if",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "defined",
+        "type": "identifier"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "_test",
+        "type": "identifier"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#endinput",
+        "type": "directive"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#endif",
+        "type": "directive"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "source": "#define",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "_test",
+        "type": "identifier"
+    }
+]
