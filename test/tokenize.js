@@ -4,7 +4,7 @@ var chai = require("chai"),
     path = require("path"),
     tokenize = require("../").tokenize;
     
-function parse(sourceFile, tokensFile, ctrlchar, done) {
+function parse(sourceFile, tokensFile, done) {
     var seen = [],
         expected = require(tokensFile),
         tk;
@@ -13,12 +13,7 @@ function parse(sourceFile, tokensFile, ctrlchar, done) {
         seen.push({ type: target.type, source: src });
     }
     
-    if ("undefined" === typeof done) {
-        tk = tokenize(onToken);
-        done = ctrlchar;
-    } else {
-        tk = tokenize(onToken, ctrlchar);
-    }
+    tk = tokenize(onToken);
                 
     fs.createReadStream(path.join(__dirname, sourceFile)).pipe(tk);
     
@@ -65,21 +60,15 @@ describe('Pawn tokenizer', function () {
                 done();
             });
         });
-        
-        it(
-            'should recognize strings with custom ctrlchar', 
-            function (done) {
-                parse(
-                    'strings/strings_custom_ctrlchar.sma', 
-                    './strings/strings_custom_ctrlchar.json', 
-                    '\\', 
-                    function (err, seen, expected) {
-                        expect(seen).to.deep.equal(expected);
-                        done();
-                    }
-                );
-            }
-        );
+    });
+    
+    describe('Changing ctrl char', function () {
+        it('should recognize ctrl char change', function (done) {
+            parse('ctrlchar/custom_ctrlchar.sma', './ctrlchar/custom_ctrlchar.json',  function (err, seen, expected) {
+                expect(seen).to.deep.equal(expected);
+                done();
+            });
+        });
     });
     
     describe('Tokenizing', function () {

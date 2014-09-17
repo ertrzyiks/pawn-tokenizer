@@ -1,0 +1,38 @@
+[
+    {
+        "type": "quote",
+        "source": "\"my^\"string\""
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    },
+    {
+        "source": "#pragma",
+        "type": "directive"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "ctrlchar",
+        "type": "identifier"
+    },
+    {
+        "source": " ",
+        "type": "whitespace"
+    },
+    {
+        "source": "'\\'",
+        "type": "char"
+    },
+    {
+        "source": "\n",
+        "type": "whitespace"
+    },
+    {
+        "type": "quote",
+        "source": "\"my\\\"string\""
+    }
+]
