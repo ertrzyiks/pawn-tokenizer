@@ -1,0 +1,18 @@
+[
+    {
+        "type": "keyword",
+        "source": "state"
+    },
+    {
+        "type": "whitespace",
+        "source": " "
+    },
+    {
+        "type": "identifier",
+        "source": "test"
+    },
+    {
+        "type": "operator",
+        "source": ";"
+    }
+]

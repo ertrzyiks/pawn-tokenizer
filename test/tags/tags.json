@@ -1,0 +1,26 @@
+[
+    {
+        "type": "keyword",
+        "source": "new"
+    },
+    {
+        "type": "whitespace",
+        "source": " "
+    },
+    {
+        "type": "identifier",
+        "source": "Float"
+    },
+    {
+        "type": "operator",
+        "source": ":"
+    },
+    {
+        "type": "identifier",
+        "source": "fTime"
+    },
+    {
+        "type": "operator",
+        "source": ";"
+    }
+]
