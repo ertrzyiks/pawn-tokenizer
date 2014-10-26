@@ -22,5 +22,33 @@
     {
         "type": "whitespace",
         "source": "\n"
+    },
+    {
+        "type": "quote",
+        "source": "\"unclosed string"
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    },
+    {
+        "type": "identifier",
+        "source": "unclosed"
+    },
+    {
+        "type": "whitespace",
+        "source": " "
+    },
+    {
+        "type": "identifier",
+        "source": "string"
+    },
+    {
+        "type": "quote",
+        "source": "\""
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
     }
 ]
