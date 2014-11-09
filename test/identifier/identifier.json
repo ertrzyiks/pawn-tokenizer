@@ -1,0 +1,18 @@
+[
+    {
+        "type": "identifier",
+        "source": "hello"
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    },
+    {
+        "type": "identifier",
+        "source": "@world"
+    },
+    {
+        "type": "whitespace",
+        "source": "\n"
+    }
+]

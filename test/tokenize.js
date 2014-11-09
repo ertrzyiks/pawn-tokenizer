@@ -76,6 +76,13 @@ describe('Pawn tokenizer', function () {
         });
     });
 
+    it('should recognize identifiers', function (done) {
+        parse('identifier/identifier.sma', './identifier/identifier.json',  function (err, seen, expected) {
+            expect(seen).to.deep.equal(expected);
+            done();
+        });
+    });
+
     it('should be able to tokenize complex code', function (done) {
         parse('tokens/tokens.sma', './tokens/tokens.json', function (err, seen, expected) {
             expect(seen).to.deep.equal(expected);
