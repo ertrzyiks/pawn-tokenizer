@@ -13,7 +13,7 @@ var t = tokenize(function (src, token) {
 process.stdin.pipe(t);
 ```
 
-For the input file main.c:
+For the input file plugin.sma:
 
 ``` c
 #include <amxmodx>
