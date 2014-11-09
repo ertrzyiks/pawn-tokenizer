@@ -1,7 +1,7 @@
 {
   "name": "pawn-tokenizer",
-  "version": "0.0.0",
-  "description": "pawn-tokenizer ==============",
+  "version": "0.0.1",
+  "description": "pawn-tokenizer",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
